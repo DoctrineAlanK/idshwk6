@@ -1,0 +1,861 @@
+date and time
+2022/05/19 周四
+当前时间: 17:47:29.65
+
+route information
+===========================================================================
+接口列表
+ 19...98 fa 9b 80 f0 1e ......Realtek PCIe GbE Family Controller
+ 11...0a 00 27 00 00 0b ......VirtualBox Host-Only Ethernet Adapter
+ 23...5c 87 9c e4 1b 1a ......Microsoft Wi-Fi Direct Virtual Adapter
+ 12...5e 87 9c e4 1b 19 ......Microsoft Wi-Fi Direct Virtual Adapter #2
+  4...00 ff 2f d7 0d 62 ......Netease UU TAP-Win32 Adapter V9.21
+  9...00 50 56 c0 00 01 ......VMware Virtual Ethernet Adapter for VMnet1
+ 25...00 50 56 c0 00 08 ......VMware Virtual Ethernet Adapter for VMnet8
+  7...5e a1 8a c9 26 84 ......VPN Client Adapter - VPN
+ 20...5c 87 9c e4 1b 19 ......Intel(R) Wireless-AC 9560 160MHz
+ 13...00 ff 7e fd 04 a3 ......Sangfor SSL VPN CS Support System VNIC
+  1...........................Software Loopback Interface 1
+ 15...00 00 00 00 00 00 00 e0 Microsoft Teredo Tunneling Adapter
+===========================================================================
+
+IPv4 路由表
+===========================================================================
+活动路由:
+网络目标        网络掩码          网关       接口   跃点数
+          0.0.0.0          0.0.0.0      10.208.64.1     10.208.96.56     35
+      10.208.64.0    255.255.192.0            在链路上      10.208.96.56    291
+     10.208.96.56  255.255.255.255            在链路上      10.208.96.56    291
+   10.208.127.255  255.255.255.255            在链路上      10.208.96.56    291
+        127.0.0.0        255.0.0.0            在链路上         127.0.0.1    331
+        127.0.0.1  255.255.255.255            在链路上         127.0.0.1    331
+  127.255.255.255  255.255.255.255            在链路上         127.0.0.1    331
+     192.168.17.0    255.255.255.0            在链路上      192.168.17.1    291
+     192.168.17.1  255.255.255.255            在链路上      192.168.17.1    291
+   192.168.17.255  255.255.255.255            在链路上      192.168.17.1    291
+     192.168.56.0    255.255.255.0            在链路上      192.168.56.1    281
+     192.168.56.1  255.255.255.255            在链路上      192.168.56.1    281
+   192.168.56.255  255.255.255.255            在链路上      192.168.56.1    281
+    192.168.247.0    255.255.255.0            在链路上     192.168.247.1    291
+    192.168.247.1  255.255.255.255            在链路上     192.168.247.1    291
+  192.168.247.255  255.255.255.255            在链路上     192.168.247.1    291
+   202.119.23.198  255.255.255.255      10.208.64.1     10.208.96.56    257
+        224.0.0.0        240.0.0.0            在链路上         127.0.0.1    331
+        224.0.0.0        240.0.0.0            在链路上      192.168.17.1    291
+        224.0.0.0        240.0.0.0            在链路上      192.168.56.1    281
+        224.0.0.0        240.0.0.0            在链路上     192.168.247.1    291
+        224.0.0.0        240.0.0.0            在链路上      10.208.96.56    291
+  255.255.255.255  255.255.255.255            在链路上         127.0.0.1    331
+  255.255.255.255  255.255.255.255            在链路上      192.168.17.1    291
+  255.255.255.255  255.255.255.255            在链路上      192.168.56.1    281
+  255.255.255.255  255.255.255.255            在链路上     192.168.247.1    291
+  255.255.255.255  255.255.255.255            在链路上      10.208.96.56    291
+===========================================================================
+永久路由:
+  无
+
+IPv6 路由表
+===========================================================================
+活动路由:
+ 接口跃点数网络目标                网关
+ 20    291 ::/0                     fe80::200:5eff:fe00:101
+  1    331 ::1/128                  在链路上
+ 15    331 2001::/32                在链路上
+ 15    331 2001:0:2851:b9f0:188f:41f9:66fc:c37b/128
+                                    在链路上
+ 20    291 2001:da8:1002:a001::6:ea5b/128
+                                    在链路上
+  9    291 fe80::/64                在链路上
+ 11    281 fe80::/64                在链路上
+ 25    291 fe80::/64                在链路上
+ 20    291 fe80::/64                在链路上
+ 15    331 fe80::/64                在链路上
+ 15    331 fe80::188f:41f9:66fc:c37b/128
+                                    在链路上
+ 25    291 fe80::7dee:d008:1c40:fb17/128
+                                    在链路上
+  9    291 fe80::8c56:f00:d2ba:9da3/128
+                                    在链路上
+ 20    291 fe80::9de2:c902:7713:f938/128
+                                    在链路上
+ 11    281 fe80::e90f:1e19:67c4:8f4b/128
+                                    在链路上
+  1    331 ff00::/8                 在链路上
+  9    291 ff00::/8                 在链路上
+ 11    281 ff00::/8                 在链路上
+ 25    291 ff00::/8                 在链路上
+ 20    291 ff00::/8                 在链路上
+ 15    331 ff00::/8                 在链路上
+===========================================================================
+永久路由:
+  无
+  
+os version
+OS 名称:          Microsoft Windows 11 家庭中文版
+OS 版本:          10.0.22621 暂缺 Build 22621
+OS 制造商:        Microsoft Corporation
+OS 配置:          独立工作站
+OS 构建类型:      Multiprocessor Free
+
+arp information
+接口: 192.168.17.1 --- 0x9
+  Internet 地址         物理地址              类型
+  192.168.17.255        ff-ff-ff-ff-ff-ff     静态
+  224.0.0.22            01-00-5e-00-00-16     静态
+  224.0.0.251           01-00-5e-00-00-fb     静态
+  239.255.255.250       01-00-5e-7f-ff-fa     静态
+
+接口: 192.168.56.1 --- 0xb
+  Internet 地址         物理地址              类型
+  192.168.56.255        ff-ff-ff-ff-ff-ff     静态
+  224.0.0.2             01-00-5e-00-00-02     静态
+  224.0.0.22            01-00-5e-00-00-16     静态
+  224.0.0.251           01-00-5e-00-00-fb     静态
+  224.0.0.252           01-00-5e-00-00-fc     静态
+  239.255.255.250       01-00-5e-7f-ff-fa     静态
+  255.255.255.255       ff-ff-ff-ff-ff-ff     静态
+
+接口: 10.208.96.56 --- 0x14
+  Internet 地址         物理地址              类型
+  10.208.64.1           00-00-5e-00-01-01     动态
+  10.208.89.7           00-00-5e-00-01-01     动态
+  10.208.127.255        ff-ff-ff-ff-ff-ff     静态
+  224.0.0.2             01-00-5e-00-00-02     静态
+  224.0.0.22            01-00-5e-00-00-16     静态
+  224.0.0.251           01-00-5e-00-00-fb     静态
+  224.0.0.252           01-00-5e-00-00-fc     静态
+  224.0.0.253           01-00-5e-00-00-fd     静态
+  239.255.255.250       01-00-5e-7f-ff-fa     静态
+  255.255.255.255       ff-ff-ff-ff-ff-ff     静态
+
+接口: 192.168.247.1 --- 0x19
+  Internet 地址         物理地址              类型
+  192.168.247.255       ff-ff-ff-ff-ff-ff     静态
+  224.0.0.22            01-00-5e-00-00-16     静态
+  224.0.0.251           01-00-5e-00-00-fb     静态
+  239.255.255.250       01-00-5e-7f-ff-fa     静态
+  
+hardware information
+Availability  BytesPerSector  Capabilities  CapabilityDescriptions                 Caption               CompressionMethod  ConfigManagerErrorCode  ConfigManagerUserConfig  CreationClassName  DefaultBlockSize  Description  DeviceID            ErrorCleared  ErrorDescription  ErrorMethodology  FirmwareRevision  Index  InstallDate  InterfaceType  LastErrorCode  Manufacturer            MaxBlockSize  MaxMediaSize  MediaLoaded  MediaType              MinBlockSize  Model                 Name                NeedsCleaning  NumberOfMediaSupported  Partitions  PNPDeviceID                                                   PowerManagementCapabilities  PowerManagementSupported  SCSIBus  SCSILogicalUnit  SCSIPort  SCSITargetId  SectorsPerTrack  SerialNumber          Signature  Size           Status  StatusInfo  SystemCreationClassName  SystemName       TotalCylinders  TotalHeads  TotalSectors  TotalTracks  TracksPerCylinder
+              512             {3, 4}        {"Random Access", "Supports Writing"}  INTEL SSDPEKKW010T8L                     0                       FALSE                    Win32_DiskDrive                      Disk drive   \\.\PHYSICALDRIVE0                                                    L12C              0                   SCSI                          (Standard disk drives)                              TRUE         Fixed hard disk media                INTEL SSDPEKKW010T8L  \\.\PHYSICALDRIVE0                                         6           SCSI\DISK&VEN_NVME&PROD_INTEL_SSDPEKKW01\5&12AE3190&0&000000                                                         0        0                1         0             63               5CD2_E428_9160_5750.             1024203640320  OK                  Win32_ComputerSystem     LAPTOP-Q57IQTD0  124519          255         2000397735    31752345     255
+Access  Availability  BlockSize  Caption  Compressed  ConfigManagerErrorCode  ConfigManagerUserConfig  CreationClassName  Description       DeviceID  DriveType  ErrorCleared  ErrorDescription  ErrorMethodology  FileSystem  FreeSpace     InstallDate  LastErrorCode  MaximumComponentLength  MediaType  Name  NumberOfBlocks  PNPDeviceID  PowerManagementCapabilities  PowerManagementSupported  ProviderName  Purpose  QuotasDisabled  QuotasIncomplete  QuotasRebuilding  Size          Status  StatusInfo  SupportsDiskQuotas  SupportsFileBasedCompression  SystemCreationClassName  SystemName       VolumeDirty  VolumeName   VolumeSerialNumber
+0                                C:       FALSE                                                        Win32_LogicalDisk  Local Fixed Disk  C:        3                                                            NTFS        37550080000                               255                     12         C:                                                                                                                                                                   161048408064                      FALSE               TRUE                          Win32_ComputerSystem     LAPTOP-Q57IQTD0               Windows-SSD  6A61626C
+0                                D:       FALSE                                                        Win32_LogicalDisk  Local Fixed Disk  D:        3                                                            NTFS        105196539904                              255                     12         D:                                                                                                                                                                   209719959552                      FALSE               TRUE                          Win32_ComputerSystem     LAPTOP-Q57IQTD0               本地磁盘     52581DD5
+0                                E:       FALSE                                                        Win32_LogicalDisk  Local Fixed Disk  E:        3                                                            NTFS        110346784768                              255                     12         E:                                                                                                                                                                   209719963648                      FALSE               TRUE                          Win32_ComputerSystem     LAPTOP-Q57IQTD0                            B85D77B1
+0                                F:       FALSE                                                        Win32_LogicalDisk  Local Fixed Disk  F:        3                                                            NTFS        190881038336                              255                     12         F:                                                                                                                                                                   442381811712                      FALSE               TRUE                          Win32_ComputerSystem     LAPTOP-Q57IQTD0                            8064CB65
+
+information of processes
+映像名称                       PID 会话名              会话#       内存使用
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          8 K
+System                           4 Services                   0      4,544 K
+Registry                       152 Services                   0     55,812 K
+smss.exe                       716 Services                   0      1,084 K
+csrss.exe                      732 Services                   0      6,120 K
+wininit.exe                   1048 Services                   0      6,720 K
+csrss.exe                     1056 Console                    1      7,352 K
+services.exe                  1120 Services                   0     14,820 K
+lsass.exe                     1148 Services                   0     51,652 K
+svchost.exe                   1264 Services                   0     63,476 K
+fontdrvhost.exe               1292 Services                   0      3,404 K
+WUDFHost.exe                  1328 Services                   0     27,008 K
+svchost.exe                   1404 Services                   0     17,116 K
+svchost.exe                   1456 Services                   0      8,788 K
+WUDFHost.exe                  1520 Services                   0      6,168 K
+winlogon.exe                  1620 Console                    1     14,556 K
+fontdrvhost.exe               1684 Console                    1     18,700 K
+svchost.exe                   1768 Services                   0      5,048 K
+dwm.exe                       1776 Console                    1    363,244 K
+svchost.exe                   1892 Services                   0      7,796 K
+svchost.exe                   1900 Services                   0     11,048 K
+svchost.exe                   1936 Services                   0     18,396 K
+IntelCpHDCPSvc.exe            1984 Services                   0      7,716 K
+svchost.exe                   1992 Services                   0      8,992 K
+svchost.exe                   2036 Services                   0      5,736 K
+svchost.exe                   1492 Services                   0     10,500 K
+svchost.exe                   1060 Services                   0      9,788 K
+svchost.exe                   1680 Services                   0      9,124 K
+IntelCpHeciSvc.exe            2148 Services                   0      6,820 K
+svchost.exe                   2160 Services                   0     18,504 K
+svchost.exe                   2276 Services                   0     10,840 K
+svchost.exe                   2412 Services                   0     23,800 K
+svchost.exe                   2540 Services                   0      6,176 K
+NVDisplay.Container.exe       2600 Services                   0     27,624 K
+svchost.exe                   2724 Services                   0     10,376 K
+svchost.exe                   2732 Services                   0     16,612 K
+svchost.exe                   2792 Services                   0      5,828 K
+svchost.exe                   2800 Services                   0     13,052 K
+svchost.exe                   2808 Services                   0      7,232 K
+svchost.exe                   2952 Services                   0      8,884 K
+svchost.exe                   1116 Services                   0      8,372 K
+Memory Compression            2524 Services                   0    428,128 K
+svchost.exe                   3032 Services                   0     20,488 K
+svchost.exe                   3080 Services                   0      6,252 K
+igfxCUIService.exe            3180 Services                   0      8,772 K
+svchost.exe                   3232 Services                   0      8,952 K
+svchost.exe                   3264 Services                   0      9,316 K
+svchost.exe                   3332 Services                   0      8,596 K
+NVDisplay.Container.exe       3508 Console                    1    110,792 K
+svchost.exe                   3528 Services                   0     20,488 K
+svchost.exe                   3564 Services                   0      6,972 K
+svchost.exe                   3768 Services                   0      9,460 K
+svchost.exe                   3776 Services                   0      6,776 K
+svchost.exe                   3900 Services                   0     21,704 K
+svchost.exe                   3928 Services                   0     13,452 K
+svchost.exe                   3944 Services                   0     29,200 K
+spoolsv.exe                   4024 Services                   0     18,760 K
+svchost.exe                   4068 Services                   0     23,408 K
+svchost.exe                    724 Services                   0      7,740 K
+wlanext.exe                   4184 Services                   0      6,696 K
+conhost.exe                   4196 Services                   0      5,236 K
+WmiPrvSE.exe                  4256 Services                   0     10,316 K
+dgpservice.exe                4356 Services                   0     19,780 K
+svchost.exe                   4364 Services                   0     24,536 K
+svchost.exe                   4372 Services                   0     47,196 K
+Everything.exe                4380 Services                   0      9,908 K
+svchost.exe                   4392 Services                   0     60,936 K
+svchost.exe                   4412 Services                   0      8,780 K
+DAX3API.exe                   4432 Services                   0     21,176 K
+CAJSHost.exe                  4440 Services                   0      5,540 K
+FMService64.exe               4452 Services                   0      7,244 K
+OfficeClickToRun.exe          4476 Services                   0     62,556 K
+esif_uf.exe                   4536 Services                   0      7,460 K
+svchost.exe                   4568 Services                   0      9,132 K
+OneApp.IGCC.WinService.ex     4580 Services                   0    171,060 K
+Lenovo.Modern.ImControlle     4588 Services                   0    104,664 K
+svchost.exe                   4660 Services                   0     13,212 K
+jtagserver.exe                4716 Services                   0      5,972 K
+lkads.exe                     4744 Services                   0      9,016 K
+lghub_updater.exe             4752 Services                   0     20,136 K
+svchost.exe                   4796 Services                   0     11,076 K
+LMS.exe                       4864 Services                   0     11,596 K
+nisvcloc.exe                  4928 Services                   0      6,344 K
+niauth_daemon.exe             5008 Services                   0      7,288 K
+pcas.exe                      5028 Services                   0     16,084 K
+OriginWebHelperService.ex     5036 Services                   0     20,980 K
+nvcontainer.exe               5052 Services                   0     66,000 K
+svchost.exe                   4296 Services                   0      8,384 K
+svchost.exe                   5172 Services                   0      6,688 K
+RstMwService.exe              5180 Services                   0      7,948 K
+svchost.exe                   5196 Services                   0      9,060 K
+RtkAudUService64.exe          5212 Services                   0      9,944 K
+SangforPWEx.exe               5232 Services                   0     10,752 K
+PnkBstrA.exe                  5248 Services                   0      7,172 K
+sqlservr.exe                  5372 Services                   0    220,056 K
+sqlwriter.exe                 5384 Services                   0      7,784 K
+SangforPromoteService.exe     5420 Services                   0     15,196 K
+QQProtect.exe                 5436 Services                   0     20,016 K
+sqlceip.exe                   5444 Services                   0     55,236 K
+svchost.exe                   5452 Services                   0      5,468 K
+nimdnsResponder.exe           5488 Services                   0      8,328 K
+svchost.exe                   5504 Services                   0      8,456 K
+svchost.exe                   5536 Services                   0      7,140 K
+vmware-authd.exe              5544 Services                   0     13,040 K
+SecoClientPromoteService.     5556 Services                   0      5,684 K
+vmnat.exe                     5568 Services                   0      6,812 K
+vmnetdhcp.exe                 5576 Services                   0      5,700 K
+vmware-usbarbitrator64.ex     5584 Services                   0     11,604 K
+lktsrv.exe                    5636 Services                   0      9,688 K
+nidmsrv.exe                   5644 Services                   0      9,804 K
+lkcitdl.exe                   5652 Services                   0      9,928 K
+jhi_service.exe               5752 Services                   0      5,560 K
+svchost.exe                   6516 Services                   0     14,560 K
+svchost.exe                   6568 Services                   0      6,340 K
+WmiPrvSE.exe                  7480 Services                   0     47,976 K
+AggregatorHost.exe            7592 Services                   0      9,928 K
+SystemWebServer.exe           8168 Services                   0     11,324 K
+rundll32.exe                  6268 Console                    1      7,312 K
+svchost.exe                   7792 Services                   0      7,776 K
+svchost.exe                   8512 Services                   0     14,128 K
+gamingservices.exe            8716 Services                   0     35,712 K
+gamingservicesnet.exe         8740 Services                   0      5,108 K
+svchost.exe                   8800 Services                   0     16,680 K
+DAX3API.exe                   9108 Console                    1     12,144 K
+ApplicationWebServer.exe      6836 Services                   0     15,356 K
+NIWebServiceContainer.exe     8832 Services                   0      7,412 K
+audiodg.exe                   8868 Services                   0     48,672 K
+NIWebServiceContainer.exe     9252 Services                   0      8,576 K
+sihost.exe                    9260 Console                    1     59,784 K
+SangforUDProtectEx.exe        9292 Console                    1     15,012 K
+svchost.exe                   9332 Console                    1     30,716 K
+svchost.exe                   9436 Console                    1      6,928 K
+PresentationFontCache.exe     9444 Services                   0     70,308 K
+svchost.exe                   9532 Console                    1     39,048 K
+nvcontainer.exe               9572 Console                    1     52,144 K
+svchost.exe                   9596 Services                   0     18,580 K
+taskhostw.exe                 9716 Console                    1     19,424 K
+igfxEM.exe                   10040 Console                    1     18,476 K
+svchost.exe                  10052 Services                   0      4,204 K
+svchost.exe                  10100 Services                   0      7,112 K
+svchost.exe                  10800 Services                   0     17,808 K
+explorer.exe                 10828 Console                    1    344,112 K
+NIWebServiceContainer.exe    10900 Services                   0      7,464 K
+svchost.exe                  11252 Services                   0     27,036 K
+svchost.exe                  10816 Console                    1     22,068 K
+svchost.exe                   8500 Services                   0     11,932 K
+svchost.exe                  11288 Services                   0      6,264 K
+vmware-hostd.exe             11392 Services                   0     42,624 K
+wallpaperservice32_c.exe     11416 Services                   0      5,220 K
+MsMpEng.exe                  11424 Services                   0    248,016 K
+svchost.exe                  11440 Services                   0     18,208 K
+wallpaper32.exe              11572 Console                    1    157,240 K
+svchost.exe                  11900 Services                   0     14,332 K
+SearchHost.exe               12156 Console                    1    337,360 K
+StartMenuExperienceHost.e    12212 Console                    1     94,508 K
+RuntimeBroker.exe            12484 Console                    1     24,896 K
+RuntimeBroker.exe            12592 Console                    1     61,508 K
+Widgets.exe                  12616 Console                    1     10,168 K
+ECAgent.exe                  12836 Console                    1     26,972 K
+DSRHost.exe                  12936 Console                    1      6,544 K
+svchost.exe                  13180 Console                    1     14,172 K
+svchost.exe                  12476 Services                   0     12,664 K
+dllhost.exe                  13624 Console                    1     18,800 K
+YourPhone.exe                13700 Console                    1     97,384 K
+svchost.exe                  14100 Services                   0     17,724 K
+NVIDIA Web Helper.exe        14388 Console                    1     36,340 K
+ctfmon.exe                   14416 Console                    1     50,164 K
+conhost.exe                  14560 Console                    1      1,484 K
+GoogleCrashHandler.exe       14584 Services                   0      1,076 K
+GoogleCrashHandler64.exe     14620 Services                   0      1,056 K
+ChsIME.exe                   14972 Console                    1      8,780 K
+RuntimeBroker.exe            10008 Console                    1     17,400 K
+TextInputHost.exe            14832 Console                    1    137,172 K
+NisSrv.exe                   11204 Services                   0     14,440 K
+Lenovo.Modern.ImControlle    13468 Services                   0     80,832 K
+SecurityHealthSystray.exe    11884 Console                    1     10,892 K
+SecurityHealthService.exe     1784 Services                   0     15,832 K
+Everything.exe               15376 Console                    1    204,256 K
+unsecapp.exe                 15732 Services                   0      9,000 K
+RtkAudUService64.exe         15816 Console                    1     14,844 K
+CCXProcess.exe               15900 Console                    1      3,980 K
+node.exe                     15912 Console                    1     53,308 K
+conhost.exe                  15920 Console                    1      6,608 K
+lghub.exe                    15992 Console                    1    167,288 K
+lghub_agent.exe              16132 Console                    1     84,368 K
+lghub.exe                    16208 Console                    1    200,748 K
+lghub.exe                    16236 Console                    1    151,272 K
+AdobeIPCBroker.exe           16356 Console                    1     12,448 K
+logi_crashpad_handler.exe    16848 Console                    1      7,148 K
+unsecapp.exe                 16860 Console                    1      9,864 K
+logi_crashpad_handler.exe    16868 Services                   0      5,752 K
+QQMusic.exe                  16988 Console                    1     73,460 K
+rundll32.exe                 17020 Console                    1      5,956 K
+Quicker.exe                  17152 Console                    1    286,052 K
+utility.exe                  17220 Console                    1     24,968 K
+lghub.exe                    17456 Console                    1    149,424 K
+IGCCTray.exe                 17508 Console                    1     75,936 K
+SearchIndexer.exe            17608 Services                   0     35,860 K
+IGCC.exe                     17920 Console                    1     83,008 K
+RuntimeBroker.exe            17980 Console                    1      6,888 K
+QMWeiyun.exe                 18208 Console                    1     17,260 K
+vmware-tray.exe               4604 Console                    1     13,056 K
+acrotray.exe                  2740 Console                    1     15,828 K
+qmbrowser.exe                18944 Console                    1     45,732 K
+svchost.exe                  16580 Services                   0     11,956 K
+ShellExperienceHost.exe      18920 Console                    1     93,600 K
+RuntimeBroker.exe            18892 Console                    1     23,664 K
+QQ.exe                       11940 Console                    1    171,556 K
+Clash for Windows.exe        20360 Console                    1    202,468 K
+Clash for Windows.exe        19712 Console                    1    238,452 K
+Clash for Windows.exe        20136 Console                    1    159,236 K
+Clash for Windows.exe        20112 Console                    1    197,680 K
+TXPlatform.exe               19676 Console                    1      4,096 K
+clash-win64.exe               6580 Console                    1     36,184 K
+conhost.exe                   6540 Console                    1      6,448 K
+svchost.exe                  10684 Console                    1     15,828 K
+explorer.exe                 19316 Console                    1     86,856 K
+svchost.exe                  16980 Services                   0     19,564 K
+SgrmBroker.exe               17252 Services                   0      9,868 K
+svchost.exe                   8468 Services                   0     12,540 K
+svchost.exe                  20540 Services                   0     10,260 K
+ApplicationFrameHost.exe     20728 Console                    1     37,396 K
+svchost.exe                  20980 Console                    1     17,548 K
+svchost.exe                  21044 Services                   0      9,336 K
+Lenovo.Modern.ImControlle    19292 Console                    1     65,000 K
+Lsf.exe                       1796 Console                    1      9,580 K
+Locator.exe                   7568 Services                   0      3,260 K
+WmiApSrv.exe                  8872 Services                   0      8,220 K
+YourPhoneServer.exe           8300 Console                    1     91,064 K
+backgroundTaskHost.exe       12420 Console                    1      7,424 K
+RuntimeBroker.exe             9684 Console                    1      7,688 K
+WmiPrvSE.exe                 19356 Services                   0     12,648 K
+svchost.exe                   7968 Services                   0      7,632 K
+EABackgroundService.exe      14312 Services                   0     41,220 K
+RtkUWP.exe                   13956 Console                    1     44,316 K
+RuntimeBroker.exe            12960 Console                    1     11,816 K
+chrome.exe                   14988 Console                    1    343,332 K
+chrome.exe                   14580 Console                    1      8,580 K
+chrome.exe                    1240 Console                    1    325,324 K
+chrome.exe                    7836 Console                    1     45,288 K
+chrome.exe                   16164 Console                    1     18,668 K
+chrome.exe                    3916 Console                    1     38,216 K
+chrome.exe                   16704 Console                    1     40,668 K
+chrome.exe                    2696 Console                    1     35,904 K
+chrome.exe                   12088 Console                    1    134,856 K
+chrome.exe                    2448 Console                    1     63,728 K
+chrome.exe                    9864 Console                    1     38,732 K
+chrome.exe                    3804 Console                    1     53,292 K
+chrome.exe                   10488 Console                    1     36,100 K
+chrome.exe                   18240 Console                    1     39,364 K
+chrome.exe                    5468 Console                    1     49,204 K
+chrome.exe                    3660 Console                    1     49,988 K
+svchost.exe                   2240 Services                   0      6,600 K
+chrome.exe                   13472 Console                    1    188,532 K
+chrome.exe                   20680 Console                    1     19,460 K
+Xodo.exe                     17136 Console                    1    460,360 K
+RuntimeBroker.exe            18504 Console                    1     33,464 K
+explorer.exe                 13192 Console                    1     92,852 K
+explorer.exe                  4844 Console                    1     91,120 K
+chrome.exe                    3576 Console                    1     92,752 K
+dllhost.exe                  21492 Console                    1      9,084 K
+chrome.exe                   11132 Console                    1    111,820 K
+chrome.exe                   16792 Console                    1     71,216 K
+chrome.exe                   16172 Console                    1     72,004 K
+smartscreen.exe              14236 Console                    1     10,796 K
+chrome.exe                   19172 Console                    1    117,684 K
+chrome.exe                   16696 Console                    1     38,120 K
+chrome.exe                    7544 Console                    1     62,508 K
+chrome.exe                   20548 Console                    1    166,492 K
+Bandizip.exe                  7136 Console                    1     42,516 K
+ChsIME.exe                    3144 Console                    1      9,968 K
+SearchProtocolHost.exe       14640 Console                    1      9,436 K
+svchost.exe                  10956 Services                   0     13,812 K
+chrome.exe                   11668 Console                    1    104,088 K
+chrome.exe                     904 Console                    1    134,692 K
+chrome.exe                   22400 Console                    1     58,528 K
+chrome.exe                    5728 Console                    1     82,016 K
+chrome.exe                   20820 Console                    1     54,564 K
+chrome.exe                   11084 Console                    1     53,800 K
+chrome.exe                    4088 Console                    1     55,244 K
+chrome.exe                    5936 Console                    1     54,524 K
+chrome.exe                   15748 Console                    1     59,200 K
+chrome.exe                    1088 Console                    1     33,332 K
+cmd.exe                      22488 Console                    1      5,804 K
+conhost.exe                  20080 Console                    1     21,308 K
+tasklist.exe                  8984 Console                    1     10,064 K
+
+uptime
+系统启动时间:     2022/5/19, 10:00:39
+
+services information
+HandleCount  Name                                              Priority  ProcessId  ThreadCount  WorkingSetSize
+0            System Idle Process                               0         0          16           8192
+16010        System                                            8         4          314          5017600
+0            Registry                                          8         152        4            67104768
+58           smss.exe                                          11        716        2            1110016
+956          csrss.exe                                         13        732        15           6336512
+143          wininit.exe                                       13        1048       2            6881280
+856          csrss.exe                                         13        1056       17           7557120
+1043         services.exe                                      9         1120       17           15474688
+1711         lsass.exe                                         9         1148       10           52932608
+1286         svchost.exe                                       8         1264       26           65593344
+40           fontdrvhost.exe                                   8         1292       5            3473408
+332          WUDFHost.exe                                      13        1328       12           27910144
+1512         svchost.exe                                       8         1404       12           17543168
+327          svchost.exe                                       8         1456       9            9125888
+219          WUDFHost.exe                                      8         1520       5            6307840
+270          winlogon.exe                                      13        1620       3            14934016
+40           fontdrvhost.exe                                   8         1684       5            19361792
+116          svchost.exe                                       8         1768       3            5165056
+1576         dwm.exe                                           13        1776       21           348958720
+150          svchost.exe                                       8         1892       1            7983104
+250          svchost.exe                                       8         1900       4            11042816
+427          svchost.exe                                       8         1936       6            18436096
+145          IntelCpHDCPSvc.exe                                8         1984       3            7892992
+361          svchost.exe                                       8         1992       10           9764864
+128          svchost.exe                                       8         2036       6            5894144
+194          svchost.exe                                       8         1492       2            10657792
+263          svchost.exe                                       8         1060       5            9973760
+167          svchost.exe                                       8         1680       5            9359360
+145          IntelCpHeciSvc.exe                                8         2148       3            6967296
+975          svchost.exe                                       8         2160       19           19058688
+264          svchost.exe                                       8         2276       8            11149312
+262          svchost.exe                                       8         2412       2            24313856
+201          svchost.exe                                       8         2540       2            6303744
+357          NVDisplay.Container.exe                           8         2600       11           28258304
+321          svchost.exe                                       8         2724       13           10547200
+496          svchost.exe                                       8         2732       13           17391616
+268          svchost.exe                                       8         2792       3            5947392
+227          svchost.exe                                       8         2800       5            13377536
+181          svchost.exe                                       8         2808       4            7380992
+182          svchost.exe                                       8         2952       2            9064448
+296          svchost.exe                                       8         1116       12           8650752
+0            Memory Compression                                8         2524       46           383168512
+303          svchost.exe                                       8         3032       4            20721664
+115          svchost.exe                                       8         3080       1            6397952
+183          igfxCUIService.exe                                8         3180       2            8929280
+195          svchost.exe                                       8         3232       2            9510912
+184          svchost.exe                                       8         3264       8            9867264
+267          svchost.exe                                       8         3332       22           8978432
+741          NVDisplay.Container.exe                           8         3508       41           112148480
+476          svchost.exe                                       8         3528       11           20992000
+156          svchost.exe                                       8         3564       4            7139328
+466          svchost.exe                                       8         3768       8            9691136
+163          svchost.exe                                       8         3776       3            6934528
+521          svchost.exe                                       8         3900       14           22376448
+229          svchost.exe                                       8         3928       8            14012416
+660          svchost.exe                                       8         3944       24           31461376
+437          spoolsv.exe                                       8         4024       7            19185664
+468          svchost.exe                                       8         4068       15           24027136
+177          svchost.exe                                       8         724        6            7958528
+114          wlanext.exe                                       8         4184       3            6868992
+86           conhost.exe                                       8         4196       2            5423104
+223          WmiPrvSE.exe                                      8         4256       8            10366976
+195          dgpservice.exe                                    8         4356       17           20664320
+421          svchost.exe                                       8         4364       7            24363008
+380          svchost.exe                                       8         4372       18           49393664
+165          Everything.exe                                    8         4380       2            10145792
+600          svchost.exe                                       8         4392       12           63086592
+134          svchost.exe                                       8         4412       1            8925184
+401          DAX3API.exe                                       8         4432       8            23293952
+119          CAJSHost.exe                                      8         4440       2            5472256
+238          FMService64.exe                                   8         4452       5            7577600
+745          OfficeClickToRun.exe                              8         4476       20           70955008
+124          esif_uf.exe                                       13        4536       3            8003584
+281          svchost.exe                                       8         4568       8            9420800
+706          OneApp.IGCC.WinService.exe                        8         4580       9            175169536
+1179         Lenovo.Modern.ImController.exe                    8         4588       44           90079232
+454          svchost.exe                                       8         4660       10           13524992
+85           jtagserver.exe                                    8         4716       3            6066176
+270          lkads.exe                                         8         4744       11           8925184
+301          lghub_updater.exe                                 8         4752       39           20488192
+204          svchost.exe                                       8         4796       7            11218944
+223          LMS.exe                                           8         4864       3            11493376
+143          nisvcloc.exe                                      8         4928       2            6320128
+159          niauth_daemon.exe                                 8         5008       8            7188480
+349          pcas.exe                                          8         5028       5            15659008
+381          OriginWebHelperService.exe                        8         5036       15           21520384
+757          nvcontainer.exe                                   8         5052       41           68059136
+265          svchost.exe                                       8         4296       4            8585216
+151          svchost.exe                                       8         5172       1            6844416
+147          RstMwService.exe                                  8         5180       6            8052736
+212          svchost.exe                                       8         5196       4            9252864
+300          RtkAudUService64.exe                              8         5212       8            10731520
+225          SangforPWEx.exe                                   8         5232       6            10653696
+175          PnkBstrA.exe                                      8         5248       2            7151616
+824          sqlservr.exe                                      8         5372       102          210067456
+142          sqlwriter.exe                                     8         5384       2            7942144
+452          SangforPromoteService.exe                         8         5420       13           15392768
+441          QQProtect.exe                                     8         5436       14           20738048
+611          sqlceip.exe                                       6         5444       11           58593280
+153          svchost.exe                                       8         5452       3            5599232
+240          nimdnsResponder.exe                               8         5488       2            8298496
+180          svchost.exe                                       8         5504       4            8654848
+241          svchost.exe                                       8         5536       5            7307264
+329          vmware-authd.exe                                  8         5544       6            13037568
+159          SecoClientPromoteService.exe                      8         5556       5            5812224
+135          vmnat.exe                                         8         5568       4            6815744
+95           vmnetdhcp.exe                                     8         5576       2            5611520
+235          vmware-usbarbitrator64.exe                        8         5584       3            11632640
+272          lktsrv.exe                                        8         5636       16           9629696
+258          nidmsrv.exe                                       8         5644       14           9748480
+258          lkcitdl.exe                                       8         5652       14           9891840
+129          jhi_service.exe                                   8         5752       2            5656576
+407          svchost.exe                                       8         6516       13           14962688
+141          svchost.exe                                       8         6568       1            6492160
+537          WmiPrvSE.exe                                      8         7480       17           50749440
+149          AggregatorHost.exe                                8         7592       2            10072064
+287          SystemWebServer.exe                               8         8168       8            11259904
+139          rundll32.exe                                      8         6268       2            7487488
+227          svchost.exe                                       8         7792       7            7954432
+249          svchost.exe                                       8         8512       7            14540800
+607          gamingservices.exe                                8         8716       19           36827136
+124          gamingservicesnet.exe                             8         8740       4            5222400
+245          svchost.exe                                       8         8800       27           18604032
+202          DAX3API.exe                                       8         9108       2            12455936
+334          ApplicationWebServer.exe                          8         6836       9            15482880
+150          NIWebServiceContainer.exe                         8         8832       7            7413760
+487          audiodg.exe                                       8         8868       12           48992256
+164          NIWebServiceContainer.exe                         8         9252       7            8491008
+834          sihost.exe                                        8         9260       18           61308928
+214          SangforUDProtectEx.exe                            8         9292       6            15310848
+482          svchost.exe                                       8         9332       12           31608832
+132          svchost.exe                                       8         9436       2            7094272
+251          PresentationFontCache.exe                         8         9444       4            71933952
+541          svchost.exe                                       8         9532       3            39661568
+731          nvcontainer.exe                                   8         9572       34           74203136
+265          svchost.exe                                       8         9596       10           18784256
+306          taskhostw.exe                                     8         9716       8            18690048
+316          igfxEM.exe                                        8         10040      3            18944000
+87           svchost.exe                                       8         10052      3            4366336
+155          svchost.exe                                       8         10100      3            7282688
+363          svchost.exe                                       8         10800      8            18255872
+4925         explorer.exe                                      8         10828      138          344838144
+150          NIWebServiceContainer.exe                         8         10900      7            7397376
+1607         svchost.exe                                       8         11252      5            27664384
+412          svchost.exe                                       8         10816      34           24604672
+212          svchost.exe                                       8         8500       1            12128256
+118          svchost.exe                                       8         11288      1            6410240
+449          vmware-hostd.exe                                  8         11392      16           43143168
+89           wallpaperservice32_c.exe                          8         11416      1            5251072
+980          MsMpEng.exe                                       8         11424      46           282570752
+410          svchost.exe                                       8         11440      7            19169280
+426          wallpaper32.exe                                   8         11572      28           201412608
+243          svchost.exe                                       8         11900      4            14860288
+1657         SearchHost.exe                                    8         12156      67           354365440
+902          StartMenuExperienceHost.exe                       8         12212      17           98553856
+276          RuntimeBroker.exe                                 8         12484      6            25890816
+893          RuntimeBroker.exe                                 8         12592      23           61931520
+144          Widgets.exe                                       8         12616      1            10407936
+485          ECAgent.exe                                       8         12836      15           27430912
+111          DSRHost.exe                                       8         12936      4            6893568
+235          svchost.exe                                       8         13180      5            14401536
+271          svchost.exe                                       8         12476      14           12603392
+328          dllhost.exe                                       8         13624      10           18636800
+837          YourPhone.exe                                     8         13700      15           124211200
+301          svchost.exe                                       8         14100      5            17768448
+607          NVIDIA Web Helper.exe                             6         14388      90           38068224
+810          ctfmon.exe                                        13        14416      14           52011008
+110          conhost.exe                                       6         14560      2            1560576
+183          GoogleCrashHandler.exe                            8         14584      3            1945600
+164          GoogleCrashHandler64.exe                          8         14620      3            1081344
+140          ChsIME.exe                                        8         14972      2            8937472
+229          RuntimeBroker.exe                                 8         10008      3            18214912
+1881         TextInputHost.exe                                 13        14832      45           137289728
+231          NisSrv.exe                                        8         11204      15           14057472
+1306         Lenovo.Modern.ImController.PluginHost.Device.exe  8         13468      27           79851520
+179          SecurityHealthSystray.exe                         8         11884      1            11448320
+430          SecurityHealthService.exe                         8         1784       8            16605184
+411          Everything.exe                                    8         15376      12           210173952
+143          unsecapp.exe                                      8         15732      4            10125312
+363          RtkAudUService64.exe                              8         15816      7            16265216
+65           CCXProcess.exe                                    8         15900      1            4075520
+628          node.exe                                          8         15912      22           54259712
+110          conhost.exe                                       8         15920      2            6766592
+553          lghub.exe                                         8         15992      26           166363136
+1818         lghub_agent.exe                                   8         16132      100          92811264
+502          lghub.exe                                         10        16208      12           201711616
+255          lghub.exe                                         8         16236      11           151240704
+223          AdobeIPCBroker.exe                                8         16356      5            12541952
+112          logi_crashpad_handler.exe                         8         16848      6            7323648
+140          unsecapp.exe                                      8         16860      2            10223616
+78           logi_crashpad_handler.exe                         8         16868      6            5894144
+32773        QQMusic.exe                                       8         16988      73           75706368
+148          rundll32.exe                                      8         17020      9            6082560
+1063         Quicker.exe                                       8         17152      18           277852160
+426          utility.exe                                       8         17220      7            26099712
+172          lghub.exe                                         8         17456      7            149151744
+520          IGCCTray.exe                                      8         17508      9            66650112
+803          SearchIndexer.exe                                 8         17608      19           37519360
+380          IGCC.exe                                          8         17920      8            84979712
+119          RuntimeBroker.exe                                 8         17980      1            7049216
+288          QMWeiyun.exe                                      8         18208      10           17334272
+210          vmware-tray.exe                                   8         4604       3            13000704
+203          acrotray.exe                                      8         2740       2            15851520
+789          qmbrowser.exe                                     8         18944      34           47312896
+192          svchost.exe                                       8         16580      2            12242944
+786          ShellExperienceHost.exe                           8         18920      25           93601792
+321          RuntimeBroker.exe                                 8         18892      6            23818240
+1545         QQ.exe                                            8         11940      82           193675264
+668          Clash for Windows.exe                             8         20360      26           202059776
+396          Clash for Windows.exe                             10        19712      19           239738880
+300          Clash for Windows.exe                             8         20136      12           159322112
+421          Clash for Windows.exe                             4         20112      22           198467584
+168          TXPlatform.exe                                    8         19676      2            3923968
+285          clash-win64.exe                                   8         6580       14           36081664
+110          conhost.exe                                       8         6540       2            6602752
+251          svchost.exe                                       8         10684      1            16326656
+833          explorer.exe                                      8         19316      7            89075712
+423          svchost.exe                                       8         16980      13           19980288
+113          SgrmBroker.exe                                    8         17252      7            9773056
+201          svchost.exe                                       8         8468       7            13344768
+218          svchost.exe                                       8         20540      8            10592256
+443          ApplicationFrameHost.exe                          8         20728      9            37208064
+263          svchost.exe                                       8         20980      5            17821696
+147          svchost.exe                                       8         21044      2            9515008
+714          Lenovo.Modern.ImController.PluginHost.Device.exe  8         19292      13           60563456
+249          Lsf.exe                                           6         1796       1            9592832
+52           Locator.exe                                       8         7568       2            3297280
+147          WmiApSrv.exe                                      8         8872       2            8392704
+772          YourPhoneServer.exe                               8         8300       13           93192192
+322          backgroundTaskHost.exe                            8         12420      12           7602176
+124          RuntimeBroker.exe                                 8         9684       1            7856128
+182          WmiPrvSE.exe                                      8         19356      10           12865536
+119          svchost.exe                                       8         7968       6            7819264
+433          EABackgroundService.exe                           8         14312      35           42287104
+487          RtkUWP.exe                                        8         13956      16           51789824
+152          RuntimeBroker.exe                                 8         12960      1            12840960
+2106         chrome.exe                                        8         14988      31           354447360
+267          chrome.exe                                        8         14580      8            8806400
+1222         chrome.exe                                        10        1240       19           302112768
+467          chrome.exe                                        8         7836       14           47521792
+221          chrome.exe                                        8         16164      9            19353600
+252          chrome.exe                                        8         3916       17           39911424
+251          chrome.exe                                        8         16704      17           42217472
+250          chrome.exe                                        8         2696       17           37494784
+273          chrome.exe                                        8         12088      21           163962880
+269          chrome.exe                                        8         2448       19           63242240
+251          chrome.exe                                        8         9864       17           40341504
+265          chrome.exe                                        8         3804       21           54878208
+250          chrome.exe                                        8         10488      17           37658624
+253          chrome.exe                                        8         18240      17           40988672
+259          chrome.exe                                        8         5468       19           51843072
+264          chrome.exe                                        8         3660       21           51363840
+506          chrome.exe                                        4         13472      18           180756480
+249          chrome.exe                                        8         20680      9            20168704
+3205         Xodo.exe                                          8         17136      34           474005504
+537          RuntimeBroker.exe                                 8         18504      7            33832960
+1103         explorer.exe                                      8         13192      18           92184576
+1101         explorer.exe                                      8         4844       18           92323840
+135          dllhost.exe                                       8         21492      3            9203712
+374          chrome.exe                                        4         11132      19           116867072
+350          chrome.exe                                        4         20548      23           166391808
+280          Bandizip.exe                                      8         7136       2            43483136
+296          svchost.exe                                       8         21216      3            15241216
+309          chrome.exe                                        4         19532      17           117293056
+163          smartscreen.exe                                   8         5784       3            10903552
+392          svchost.exe                                       8         18120      9            18907136
+154          svchost.exe                                       8         10944      5            9445376
+176          svchost.exe                                       8         10204      6            10174464
+140          NvOAWrapperCache.exe                              8         1364       4            31821824
+360          chrome.exe                                        8         11380      23           117870592
+249          chrome.exe                                        4         22276      23           34127872
+80           cmd.exe                                           8         14656      3            5931008
+257          conhost.exe                                       8         20588      8            21942272
+193          WMIC.exe                                          8         6092       8            14106624
+
+nic information
+Windows IP 配置
+
+   主机名  . . . . . . . . . . . . . : LAPTOP-Q57IQTD0
+   主 DNS 后缀 . . . . . . . . . . . :
+   节点类型  . . . . . . . . . . . . : 混合
+   IP 路由已启用 . . . . . . . . . . : 否
+   WINS 代理已启用 . . . . . . . . . : 否
+
+以太网适配器 以太网:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . :
+   描述. . . . . . . . . . . . . . . : Realtek PCIe GbE Family Controller
+   物理地址. . . . . . . . . . . . . : 98-FA-9B-80-F0-1E
+   DHCP 已启用 . . . . . . . . . . . : 是
+   自动配置已启用. . . . . . . . . . : 是
+
+以太网适配器 VirtualBox Host-Only Network:
+
+   连接特定的 DNS 后缀 . . . . . . . :
+   描述. . . . . . . . . . . . . . . : VirtualBox Host-Only Ethernet Adapter
+   物理地址. . . . . . . . . . . . . : 0A-00-27-00-00-0B
+   DHCP 已启用 . . . . . . . . . . . : 否
+   自动配置已启用. . . . . . . . . . : 是
+   本地链接 IPv6 地址. . . . . . . . : fe80::e90f:1e19:67c4:8f4b%11(首选)
+   IPv4 地址 . . . . . . . . . . . . : 192.168.56.1(首选)
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . :
+   DHCPv6 IAID . . . . . . . . . . . : 1191837735
+   DHCPv6 客户端 DUID  . . . . . . . : 00-01-00-01-2A-0E-DF-0C-5C-87-9C-E4-1B-19
+   TCPIP 上的 NetBIOS  . . . . . . . : 已启用
+
+无线局域网适配器 本地连接* 1:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . :
+   描述. . . . . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   物理地址. . . . . . . . . . . . . : 5C-87-9C-E4-1B-1A
+   DHCP 已启用 . . . . . . . . . . . : 是
+   自动配置已启用. . . . . . . . . . : 是
+
+无线局域网适配器 本地连接* 2:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . :
+   描述. . . . . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   物理地址. . . . . . . . . . . . . : 5E-87-9C-E4-1B-19
+   DHCP 已启用 . . . . . . . . . . . : 是
+   自动配置已启用. . . . . . . . . . : 是
+
+以太网适配器 以太网 3:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . :
+   描述. . . . . . . . . . . . . . . : Netease UU TAP-Win32 Adapter V9.21
+   物理地址. . . . . . . . . . . . . : 00-FF-2F-D7-0D-62
+   DHCP 已启用 . . . . . . . . . . . : 是
+   自动配置已启用. . . . . . . . . . : 是
+
+以太网适配器 VMware Network Adapter VMnet1:
+
+   连接特定的 DNS 后缀 . . . . . . . :
+   描述. . . . . . . . . . . . . . . : VMware Virtual Ethernet Adapter for VMnet1
+   物理地址. . . . . . . . . . . . . : 00-50-56-C0-00-01
+   DHCP 已启用 . . . . . . . . . . . : 否
+   自动配置已启用. . . . . . . . . . : 是
+   本地链接 IPv6 地址. . . . . . . . : fe80::8c56:f00:d2ba:9da3%9(首选)
+   IPv4 地址 . . . . . . . . . . . . : 192.168.17.1(首选)
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . :
+   DHCPv6 IAID . . . . . . . . . . . : 1409306710
+   DHCPv6 客户端 DUID  . . . . . . . : 00-01-00-01-2A-0E-DF-0C-5C-87-9C-E4-1B-19
+   TCPIP 上的 NetBIOS  . . . . . . . : 已启用
+
+以太网适配器 VMware Network Adapter VMnet8:
+
+   连接特定的 DNS 后缀 . . . . . . . :
+   描述. . . . . . . . . . . . . . . : VMware Virtual Ethernet Adapter for VMnet8
+   物理地址. . . . . . . . . . . . . : 00-50-56-C0-00-08
+   DHCP 已启用 . . . . . . . . . . . : 否
+   自动配置已启用. . . . . . . . . . : 是
+   本地链接 IPv6 地址. . . . . . . . : fe80::7dee:d008:1c40:fb17%25(首选)
+   IPv4 地址 . . . . . . . . . . . . : 192.168.247.1(首选)
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . :
+   DHCPv6 IAID . . . . . . . . . . . : 1426083926
+   DHCPv6 客户端 DUID  . . . . . . . : 00-01-00-01-2A-0E-DF-0C-5C-87-9C-E4-1B-19
+   TCPIP 上的 NetBIOS  . . . . . . . : 已启用
+
+未知适配器 VPN - VPN Client:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . :
+   描述. . . . . . . . . . . . . . . : VPN Client Adapter - VPN
+   物理地址. . . . . . . . . . . . . : 5E-A1-8A-C9-26-84
+   DHCP 已启用 . . . . . . . . . . . : 是
+   自动配置已启用. . . . . . . . . . : 是
+
+无线局域网适配器 WLAN:
+
+   连接特定的 DNS 后缀 . . . . . . . :
+   描述. . . . . . . . . . . . . . . : Intel(R) Wireless-AC 9560 160MHz
+   物理地址. . . . . . . . . . . . . : 5C-87-9C-E4-1B-19
+   DHCP 已启用 . . . . . . . . . . . : 是
+   自动配置已启用. . . . . . . . . . : 是
+   IPv6 地址 . . . . . . . . . . . . : 2001:da8:1002:a001::6:ea5b(首选)
+   获得租约的时间  . . . . . . . . . : 2022年5月19日 10:01:01
+   租约过期的时间  . . . . . . . . . : 2022年5月19日 18:15:57
+   本地链接 IPv6 地址. . . . . . . . : fe80::9de2:c902:7713:f938%20(首选)
+   IPv4 地址 . . . . . . . . . . . . : 10.208.96.56(首选)
+   子网掩码  . . . . . . . . . . . . : 255.255.192.0
+   获得租约的时间  . . . . . . . . . : 2022年5月19日 10:00:59
+   租约过期的时间  . . . . . . . . . : 2022年5月20日 2:48:40
+   默认网关. . . . . . . . . . . . . : fe80::200:5eff:fe00:101%20
+                                       10.208.64.1
+   DHCP 服务器 . . . . . . . . . . . : 10.208.64.1
+   DHCPv6 IAID . . . . . . . . . . . : 157058972
+   DHCPv6 客户端 DUID  . . . . . . . : 00-01-00-01-2A-0E-DF-0C-5C-87-9C-E4-1B-19
+   DNS 服务器  . . . . . . . . . . . : 10.80.128.28
+                                       10.81.254.4
+   TCPIP 上的 NetBIOS  . . . . . . . : 已启用
+
+以太网适配器 以太网 2:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . :
+   描述. . . . . . . . . . . . . . . : Sangfor SSL VPN CS Support System VNIC
+   物理地址. . . . . . . . . . . . . : 00-FF-7E-FD-04-A3
+   DHCP 已启用 . . . . . . . . . . . : 是
+   自动配置已启用. . . . . . . . . . : 是
+
+隧道适配器 Teredo Tunneling Pseudo-Interface:
+
+   连接特定的 DNS 后缀 . . . . . . . :
+   描述. . . . . . . . . . . . . . . : Microsoft Teredo Tunneling Adapter
+   物理地址. . . . . . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP 已启用 . . . . . . . . . . . : 否
+   自动配置已启用. . . . . . . . . . : 是
+   IPv6 地址 . . . . . . . . . . . . : 2001:0:2851:b9f0:188f:41f9:66fc:c37b(首选)
+   本地链接 IPv6 地址. . . . . . . . : fe80::188f:41f9:66fc:c37b%15(首选)
+   默认网关. . . . . . . . . . . . . :
+   DHCPv6 IAID . . . . . . . . . . . : 285212672
+   DHCPv6 客户端 DUID  . . . . . . . : 00-01-00-01-2A-0E-DF-0C-5C-87-9C-E4-1B-19
+   TCPIP 上的 NetBIOS  . . . . . . . : 已禁用
